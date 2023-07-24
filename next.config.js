@@ -15,7 +15,7 @@ module.exports = withFaust({
     locales: ['en'],
     defaultLocale: 'en',
   },
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: '/sample-page',
