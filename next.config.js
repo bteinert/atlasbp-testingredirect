@@ -15,4 +15,13 @@ module.exports = withFaust({
     locales: ['en'],
     defaultLocale: 'en',
   },
+  async rewrites() {
+    return {
+      afterFiles: [
+        {
+          source: '/sample-page',
+          destination: 'https://bpatlasbptesti.wpengine.com/sample-page',
+          permanent: true,
+        },
+        },
 });
