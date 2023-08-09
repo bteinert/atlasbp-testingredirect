@@ -27,6 +27,14 @@ module.exports = () => {
         source: "/ducks",
         destination: "https://random-d.uk/api/random",
       },
+      {
+        source: "/testing-proxy-pass/",
+        destination: "https://bpatlasbptesti.wpengine.com/testing-proxy-pass/",
+      },
+      {
+        source: "/bt-testing-proxy-pass/",
+        destination: "https://brandonteinert.wpengine.com/bt-testing-proxy-pass/",
+      },
     ];
   };
   return {
