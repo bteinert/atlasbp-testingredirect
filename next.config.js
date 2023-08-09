@@ -1,3 +1,7 @@
+const { withFaust, getWpHostname } = require('@faustwp/core');
+/**
+ * @type {import('next').NextConfig}
+ **/
 module.exports = () => {
   const rewrites = () => {
     return [
@@ -34,7 +38,7 @@ module.exports = () => {
 
 
 
-const { withFaust, getWpHostname } = require('@faustwp/core');
+
 
 /**
  * @type {import('next').NextConfig}
