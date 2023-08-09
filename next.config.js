@@ -15,6 +15,21 @@ module.exports = withFaust({
     locales: ['en'],
     defaultLocale: 'en',
   },
+  const rewrites = () => {
+    return [
+      {
+        source: "/sample-page",
+        destination: "https://bpatlasbptesti.wpengine.com/sample-page",
+      },
+      {
+        source: "/ducks",
+        destination: "https://random-d.uk/api/random",
+      },
+    ];
+  };
+  return {
+    rewrites,
+  };
   /**async rewrites() {
     return [
       {
