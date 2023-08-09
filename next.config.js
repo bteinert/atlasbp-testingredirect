@@ -34,7 +34,7 @@ module.exports = withFaust({
          destination: "http://bpatlasbptesti.wpengine.com/testing-proxy-pass",
        },
       ]
-    },
+    }
   },
 });
 
