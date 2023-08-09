@@ -15,6 +15,8 @@ module.exports = withFaust({
     locales: ['en'],
     defaultLocale: 'en',
   },
+  });
+module.exports = () => {
   const rewrites = () => {
     return [
       {
@@ -38,4 +40,5 @@ module.exports = withFaust({
       },
     ]
   }, **/ 
-});
+};
+
