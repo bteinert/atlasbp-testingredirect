@@ -16,7 +16,7 @@ module.exports = withFaust({
   },
   async rewrites() {
     return {
-      beforeFiles: [
+      fallBack: [
        {
          source: "/sample-page/",
          destination: "https://brandonteinert.wpengine.com/sample-page/",
