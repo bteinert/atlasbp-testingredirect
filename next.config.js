@@ -4,26 +4,6 @@ const { withFaust, getWpHostname } = require('@faustwp/core');
  **/
 module.exports = withFaust({
   reactStrictMode: true,
-  async rewrites() {
-    return [
-      {
-        source: "/sample-page/",
-        destination: "https://brandonteinert.wpengine.com/sample-page/",
-      },
-      {
-        source: "/ducks",
-        destination: "https://wpengine.com/wordpress-hosting",
-      },
-      {
-        source: "/tpp-bpatlas/",
-        destination: "https://bpatlasbptesti.wpengine.com/testing-proxy-pass/",
-      },
-      {
-        source: "/testing-proxy-pass",
-        destination: "http://bpatlasbptesti.wpengine.com/testing-proxy-pass",
-      },
-    ]
-  }
   sassOptions: {
     includePaths: ['node_modules'],
   },
@@ -34,6 +14,28 @@ module.exports = withFaust({
     locales: ['en'],
     defaultLocale: 'en',
   },
-  });
+  async rewrites() {
+    return {
+      beforeFiles: [
+       {
+         source: "/sample-page/",
+         destination: "https://brandonteinert.wpengine.com/sample-page/",
+       },
+       {
+         source: "/ducks",
+         destination: "https://wpengine.com/wordpress-hosting",
+       },
+       {
+         source: "/tpp-bpatlas/",
+         destination: "https://bpatlasbptesti.wpengine.com/testing-proxy-pass/",
+       },
+       {
+         source: "/testing-proxy-pass",
+         destination: "http://bpatlasbptesti.wpengine.com/testing-proxy-pass",
+       },
+     ],
+    }
+  },
+});
 
 
