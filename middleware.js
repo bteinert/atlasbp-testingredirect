@@ -8,9 +8,9 @@ export function middleware(request) {
   requestHeaders.set('host', hostname)
 
   let url = request.nextUrl.clone()
-  url.protocol = 'http'
+  url.protocol = 'https'
   url.hostname = hostname
-  url.port = 80
+  url.port = 443
   url.pathname = url.pathname.replace(/^\/sample/, 'sample-page/');
 
   return NextResponse.rewrite(url, {
