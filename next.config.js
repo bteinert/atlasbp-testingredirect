@@ -22,15 +22,15 @@ module.exports = withFaust({
       },
       {
         source: "/ducks",
-        destination: "https://wpengine.com",
+        destination: "https://wpengine.com/wordpress-hosting",
       },
       {
-        source: "/testing-proxy-pass/",
-        destination: "https://bpatlasbptesti.wpengine.com/testing-proxy-pass/",
+        source: "/testing-proxy-pass",
+        destination: "https://bpatlasbptesti.wpengine.com/testing-proxy-pass",
       },
       {
-        source: "/bt-testing-proxy-pass/",
-        destination: "http://brandonteinert.com/bt-testing-proxy-pass/",
+        source: "/bt-testing-proxy-pass",
+        destination: "http://brandonteinert.wpengine.com/bt-testing-proxy-pass",
       },
     ]
   }
