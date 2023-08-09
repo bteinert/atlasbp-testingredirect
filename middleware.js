@@ -11,7 +11,7 @@ export function middleware(request) {
   url.protocol = 'https'
   url.hostname = hostname
   url.port = 443
-  url.pathname = url.pathname.replace(/^\/sample-page/, '');
+  url.pathname = url.pathname.replace(/^\/sample-page/, '/sample-page/');
 
   return NextResponse.rewrite(url, {
     headers: requestHeaders,
