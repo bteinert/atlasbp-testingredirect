@@ -11,7 +11,7 @@ export function middleware(request) {
   url.protocol = 'http'
   url.hostname = hostname
   url.port = 80
-  url.pathname = url.pathname.replace(/^\/sample/, 'sample-page');
+  url.pathname = url.pathname.replace(/^\/sample/, 'sample-page/');
 
   return NextResponse.rewrite(url, {
     headers: requestHeaders,
