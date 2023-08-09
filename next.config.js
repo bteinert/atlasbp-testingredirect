@@ -25,8 +25,8 @@ module.exports = withFaust({
         destination: "https://wpengine.com/wordpress-hosting",
       },
       {
-        source: "/tpp-bpatlas",
-        destination: "https://bpatlasbptesti.wpengine.com/testing-proxy-pass",
+        source: "/tpp-bpatlas/",
+        destination: "https://bpatlasbptesti.wpengine.com/testing-proxy-pass/",
       },
       {
         source: "/testing-proxy-pass",
