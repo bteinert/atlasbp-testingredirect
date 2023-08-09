@@ -15,7 +15,7 @@ module.exports = withFaust({
     defaultLocale: 'en',
   },
   async rewrites() {
-    return [
+    return {
       fallback: [
        {
          source: "/sample-page/",
@@ -34,7 +34,7 @@ module.exports = withFaust({
          destination: "http://bpatlasbptesti.wpengine.com/testing-proxy-pass",
        },
       ],
-    ],
+    },
   },
 });
 
