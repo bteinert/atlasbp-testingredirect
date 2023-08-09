@@ -20,8 +20,8 @@ module.exports = () => {
   const rewrites = () => {
     return [
       {
-        source: "/sample-page",
-        destination: "https://brandonteinert.wpengine.com/sample-page",
+        source: "/sample-page/",
+        destination: "https://brandonteinert.wpengine.com/sample-page/",
       },
       {
         source: "/ducks",
