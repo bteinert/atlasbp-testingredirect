@@ -21,7 +21,7 @@ module.exports = () => {
     return [
       {
         source: "/sample-page",
-        destination: "https://bpatlasbptesti.wpengine.com/sample-page",
+        destination: "https://brandonteinert.wpengine.com/sample-page",
       },
       {
         source: "/ducks",
