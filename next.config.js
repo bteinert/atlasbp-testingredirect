@@ -32,8 +32,8 @@ module.exports = withFaust({
         source: "/bt-testing-proxy-pass/",
         destination: "https://brandonteinert.wpengine.com/bt-testing-proxy-pass/",
       },
-    ];
-  };
+    ]
+  }
   });
 
 
