@@ -22,7 +22,7 @@ module.exports = withFaust({
       },
       {
         source: "/ducks",
-        destination: "https://random-d.uk/api/random",
+        destination: "https://wpengine.com",
       },
       {
         source: "/testing-proxy-pass/",
@@ -30,7 +30,7 @@ module.exports = withFaust({
       },
       {
         source: "/bt-testing-proxy-pass/",
-        destination: "https://brandonteinert.wpengine.com/bt-testing-proxy-pass/",
+        destination: "http://brandonteinert.com/bt-testing-proxy-pass/",
       },
     ]
   }
