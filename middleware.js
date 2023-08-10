@@ -8,7 +8,7 @@ export function middleware(request) {
   requestHeaders.set('host', hostname)
 
   let url = request.nextUrl.clone()
-  url.protocol = 'https'
+  url.protocol = 'http'
   url.hostname = hostname
   url.pathname = url.pathname.replace(/^\/sample/, 'sample-page/');
 
