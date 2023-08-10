@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
  
 export function middleware(request) {
 
-  const hostname = 'brandonteinert.wpengine.com' // or 'eu.posthog.com'
+  const hostname = 'brandonteinert.wpengine.com' 
 
   const requestHeaders = new Headers(request.headers)
   requestHeaders.set('host', hostname)
