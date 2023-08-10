@@ -10,7 +10,6 @@ export function middleware(request) {
   let url = request.nextUrl.clone()
   url.protocol = 'https'
   url.hostname = hostname
-  url.port = 443
   url.pathname = url.pathname.replace(/^\/sample/, 'sample-page/');
 
   return NextResponse.rewrite(url, {
