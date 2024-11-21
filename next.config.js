@@ -8,7 +8,7 @@ module.exports = withFaust({
       beforeFiles: [
         {
           source: "/sample-page",
-          destination: "http://bpatlasbptesti.wpengine.com/sample-page/",
+          destination: "http://gobreck.com/sample-page/",
         },
       ],
     };
