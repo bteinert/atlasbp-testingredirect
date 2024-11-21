@@ -11,8 +11,8 @@ module.exports = withFaust({
           destination: "http://gobreck.com/sample-page",
         },
         {
-          source: "/sample-page",
-          destination: "http://gobreck.com/sample-page",
+          source: "/sample-page/",
+          destination: "http://gobreck.com/sample-page/",
         },
       ],
     };
