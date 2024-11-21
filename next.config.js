@@ -9,11 +9,11 @@ module.exports = withFaust({
       beforeFiles: [
         {
           source: "/sample-page",
-          destination: "https://gobreck.com/sample-page",
+          destination: "http://bpatlasbptesti.wpenginepowered.com/sample-page",
         },
         {
           source: "/sample-page/",
-          destination: "https://gobreck.com/sample-page/",
+          destination: "http://bpatlasbptesti.wpenginepowered.com/sample-page/",
         },
       ],
     };
